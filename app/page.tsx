@@ -1,9 +1,10 @@
+import ChatWindow from "@/components/ChatWindow";
 
 
 export default function Home() {
   return (
-   <div>
-    This is home page
-   </div>
+    <div className="flex justify-center items-center h-screen">
+   <ChatWindow/>
+  </div>
   );
 }
